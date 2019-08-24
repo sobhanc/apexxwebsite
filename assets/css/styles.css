@@ -44,9 +44,7 @@ section {
 	padding: 100px 80px;
 }
 
-section:not(.hero):nth-child(even) {
-	background-color: #f5f5f5;
-}
+
 
 .grid {
 	width: 100%;
@@ -58,7 +56,7 @@ section:not(.hero):nth-child(even) {
 hr {
 	width: 250px;
 	height: 3px;
-	background-color: #800020;
+	background-color: #8c9eff;
 	border: 0;
 	margin-bottom: 50px;
 }
@@ -71,6 +69,7 @@ section h3.title {
 }
 
 section p {
+	color: black;
 	max-width: 775px;
 	line-height: 2;
 	padding: 0 20px;
@@ -158,6 +157,10 @@ section p {
 
 /* Destinations Sections */
 
+.destinations .p {
+	color: red;
+}
+
 .destinations .grid li {
 	height: 350px;
 	padding: 20px;
@@ -189,6 +192,16 @@ section p {
 }
 
 /*Packages Section */
+
+.packages {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.packages p {
+	color: white;
+}
+
 .packages .grid li {
 	padding: 50px;
 	flex-basis: 50%;
@@ -197,6 +210,10 @@ section p {
 
 .packages .grid li i {
 	color: #8c9eff;
+}
+
+.packages h3, p, h4 {
+	color: white;
 }
 
 .packages .grid li h4 {
@@ -213,6 +230,17 @@ section p {
 
 /*locations Section */
 
+.location {
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.location p {
+	color: white;
+	font-size: 2em;
+}
+
 .location .quote {
 	font-size: 30px;
 	font-weight: 300;
@@ -221,7 +249,7 @@ section p {
 }
 
 .location i {
-	color: #8b0000;
+	color: #8c9eff;
 }
 
 @media (max-width: 800px) {
